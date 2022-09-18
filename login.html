@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+.container{
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    background-color: aqua;
+    height: 60%;
+    width: 66%;
+    
+}
+.main{
+    position:absolute;
+    /* top: 20%; */
+    /* left: 17%; */
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 60%;
+    box-shadow: 0 0 10px rgb(91, 18, 125);
+}
+.aside{
+    position: absolute;
+    right: 0%;
+    background-color: #097969;
+    height: 100%;
+    width: 40%;
+    /* align-items: center; */
+}
+.ca{
+    /* align-items: center; */
+    color: blueviolet;
+    text-shadow:0 0 3px blueviolet;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    font-size: 2.3em;
+    /* height: 30%; */
+    margin-top: 10%;
+}
+.inpu{
+    /* border: 2px solid blue; */
+    
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title{
+    margin: 0 0;
+}
+.inp{
+    position: relative;
+    width: 100%;
+    border: none;
+    padding: 4px 0;
+    background-color:rgba(0, 0, 0, 0.1);
+    color: blueviolet;
+}
+.signbtn{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.signbtn button{
+    padding: 6px 19px;
+    background-color:#097969;
+    border-radius: 11px;
+    box-shadow: 0 0 10px #097969;
+
+}
+.signbtn button:hover{
+    padding: 6px 19px;
+    background-color:#5cb4a7;
+    border-radius: 11px;
+    box-shadow: 0 0 10px blueviolet;
+
+}
+.user{
+    /* border: 2px solid red; */
+    font-size:27px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top: 20%;
+}
+.signbtn2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 65%;
+}
+.signbtn2 button{
+    padding: 6px 19px;
+    background-color:#097969;
+    border-radius: 11px;
+    box-shadow: 0 0 10px #097969;
+    color: white;
+    border:2px solid white;
+}
+.signbtn2 button:hover{
+    color: blueviolet;
+    text-shadow: 0 0 10px white;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1 class="ca"><b>Enter Exisiting Details</b></h1>
+            <div class="inpu">
+                <!-- <h3 class="title">Name</h3>
+            <input class="inp" type="text"> -->
+            <h3 class="title">E-mail</h3>
+            <input class="inp" type="text">
+            <h3 class="title">Password</h3>
+            <input class="inp" type="password">
+            </div>
+            <h3 class="signbtn"><a href="/index.html"><button>LOGIN</button></a></h3>
+        </div>
+        <div class="aside">
+            <div class="user"><b>New User?</b></div>
+            <h3 class="signbtn2"><a href="/sign_up.html"><button><b>SIGN UP</b></button></a></h3>
+        </div>
+    </div>
+</body>
+</html>
